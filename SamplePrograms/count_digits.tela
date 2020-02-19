@@ -20,6 +20,5 @@ begin program
     count = countDigits(number, 0);
 
     write("Il numero totale di cifre nel numero ", number, " è: ", count);
-    write(ciaone);
     return;
 end program
