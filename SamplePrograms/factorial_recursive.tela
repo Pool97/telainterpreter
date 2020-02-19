@@ -1,0 +1,18 @@
+#Versione ricorsiva della funzione fattoriale.
+module program (): void
+    var number: int;
+    
+    module factorial (n : int) : int 
+    begin factorial
+        if n == 0 then 
+            return 1;
+        else 
+            return n * factorial(n -1);
+        end;
+    end factorial
+
+begin program 
+    write("Inserisci un numero.");
+    read(number);
+    write("Il fattoriale di ", number, " è ", factorial(number));
+end program

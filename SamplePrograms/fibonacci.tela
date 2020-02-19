@@ -1,0 +1,19 @@
+#Se n è il numero in ingresso, stampa in uscita il (n + 1)-esimo elemento della successione di Fibonacci.
+module prog(num : int): void
+    var fib_number : int;
+	
+	module fib(n: int): int
+
+	begin fib
+		if n <= 1 then 
+			return n;
+		end;
+		
+		return fib(n - 1) + fib(n - 2);
+	end fib
+
+begin prog
+	fib_number = num;
+    write("Il ", fib_number + 1, "° numero della successione di Fibonacci è: ", fib(fib_number));
+    return;
+end prog

@@ -1,0 +1,22 @@
+#Torre di Hanoi
+module program () : int
+    var n: int;
+    module towerOfHanoi(n : int, from_rod : char, to_rod: char, aux_rod: char): void 
+    
+    begin towerOfHanoi
+        if n == 1 then 
+            write("Move disk 1 from rod ", from_rod, " to rod ", to_rod, "; ");
+            return;
+        end;
+
+    towerOfHanoi(n - 1, from_rod, aux_rod, to_rod);
+    write("Move disk ", n, " from rod ", from_rod, " to rod ", to_rod, "; ");
+    towerOfHanoi(n - 1, aux_rod, to_rod, from_rod);
+    end towerOfHanoi
+
+
+begin program
+    n = 4;
+    towerOfHanoi(n, 'A', 'C', 'B');
+    return 0;
+end program

@@ -1,0 +1,22 @@
+#Stampa in uscita il primo numero pari inserito in ingresso dall'utente.
+module program(): void
+
+    module num_pari() : int
+        var num, resto, quoziente: int;
+
+    begin num_pari 
+        resto = 1;
+        while resto != 0 do 
+            write("Inserisci un numero: ");
+            read(num);
+
+            quoziente = num / 2;
+            resto = num - 2 * quoziente;
+        end;
+
+        return num;
+    end num_pari
+
+begin program 
+    write("Il numero pari da te inserito è: ", num_pari());
+end program

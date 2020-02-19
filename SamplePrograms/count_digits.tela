@@ -1,0 +1,25 @@
+#Dato un numero intero in ingresso restituisce il numero di cifre di cui è composto.
+module program() : void
+    var number, count : int;
+
+    module countDigits (num: int, count: int): int
+
+    begin countDigits
+        if num > 0 then 
+            count = count + 1;
+            countDigits(num/10, count);
+        else    
+            return count;
+        end;
+    end countDigits
+
+begin program
+    write("Inserisci un numero intero positivo.");
+
+    read(number);
+    count = countDigits(number, 0);
+
+    write("Il numero totale di cifre nel numero ", number, " è: ", count);
+    write(ciaone);
+    return;
+end program

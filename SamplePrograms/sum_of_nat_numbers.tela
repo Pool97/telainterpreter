@@ -1,0 +1,23 @@
+#Dato in ingresso un numero naturale n, stampa la somma di tutti i numeri naturali da 0 fino ad n.
+module prog (): int
+    var number, result : int;
+
+    module sum(n : int) : int 
+
+    begin sum 
+        if n != 0 then 
+            return n + sum(n - 1);
+        else 
+            return n;
+        end;
+    end sum
+
+begin prog
+    write("Inserisci un numero intero positivo. ");
+
+    read(number);
+    result = sum(number);
+
+    write("sum = ", result);
+    return 0;
+end prog
