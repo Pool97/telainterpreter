@@ -15,10 +15,8 @@ module program() : void
 
 begin program
     write("Inserisci un numero intero positivo.");
-
     read(number);
     count = countDigits(number, 0);
-
     write("Il numero totale di cifre nel numero ", number, " è: ", count);
     return;
 end program

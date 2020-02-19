@@ -1,5 +1,5 @@
 #Dato in ingresso un numero naturale n, stampa la somma di tutti i numeri naturali da 0 fino ad n.
-module prog (): int
+module prog (): void
     var number, result : int;
 
     module sum(n : int) : int 
@@ -14,10 +14,7 @@ module prog (): int
 
 begin prog
     write("Inserisci un numero intero positivo. ");
-
     read(number);
     result = sum(number);
-
     write("sum = ", result);
-    return 0;
 end prog
