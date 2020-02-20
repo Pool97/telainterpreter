@@ -30,7 +30,7 @@ In generale, è sufficiente richiamare l'interprete passando come argomenti il p
 
 ## Feedback
 Il software è stato testato su piattaforma Linux. Ciò non pregiudica la portabilità del codice. Dato che nel repo ho reso disponibili solo i file originali codificati in flex e bison, per ottenere i corrispondenti file .c del lexer e del parser su Windows è necessario utilizzare uno dei porting disponibili su tale piattaforma. In questo caso l'installazione dell'interprete è diversa da quella presentata precedentemente.
-In caso di eventuali bug riscontrati sentiti libero/a di inviare un feedback mediante la sezione degli issues di GitHub oppure inviando una mail a [roberto.poletti01gmail.com](mailto:roberto.poletti01@gmail.com)". Richieste per eventuali migliorie sono accolte!
+In caso di eventuali bug riscontrati sentiti libero/a di inviare un feedback mediante la sezione degli issues di GitHub oppure inviando una mail a [roberto.poletti01gmail.com](mailto:roberto.poletti01@gmail.com). Richieste per eventuali migliorie sono accolte!
 
 ## Todo
 L'interprete è stato concepito come un prototipo, pertanto è possibile attuare diverse migliorie sia a livello di specifica del linguaggio che a livello di implementazione, tra cui:
