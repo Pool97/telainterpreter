@@ -22,7 +22,7 @@ Su piattaforma Linux:
 $ make
 ```
 ## Utilizzo
-Nel repo sono presenti alcuni programmi di esempio, contenuti nella cartella SamplePrograms. Per eseguire il programma contenuto in *fibonacci.tela* è necessario invocare il seguente comando nella cartella : 
+Nel repo sono presenti alcuni programmi di esempio, contenuti nella cartella SamplePrograms. Per eseguire il programma contenuto in *fibonacci.tela* è necessario invocare il seguente comando nella cartella principale: 
 ```
 $ ./telai ./SamplePrograms/fibonacci.tela
 ```
