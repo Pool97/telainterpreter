@@ -29,7 +29,7 @@ $ ./telai ./SamplePrograms/fibonacci.tela
 In generale, è sufficiente richiamare l'interprete passando come argomenti il path del file sorgente da eseguire e i parametri attuali del modulo principale.
 
 ## Feedback
-Il software è stato testato su piattaforma Linux. Ciò non pregiudica la portabilità del codice. Dato che nel repo ho reso disponibili solo i file originali codificati in flex e bison, per ottenere i corrispondenti file .c del lexer e del parser è necessario utilizzare uno dei porting disponibili su piattaforma Windows. In questo caso l'installazione dell'interprete è diversa da quella presentata precedente.
+Il software è stato testato su piattaforma Linux. Ciò non pregiudica la portabilità del codice. Dato che nel repo ho reso disponibili solo i file originali codificati in flex e bison, per ottenere i corrispondenti file .c del lexer e del parser su Windows è necessario utilizzare uno dei porting disponibili su tale piattaforma. In questo caso l'installazione dell'interprete è diversa da quella presentata precedentemente.
 In caso di eventuali bug riscontrati sentiti libero/a di inviare un feedback mediante la sezione degli issues di GitHub oppure inviando una mail a [roberto.poletti01gmail.com](mailto:roberto.poletti01gmail.com)". Richieste per eventuali migliorie sono accolte!
 
 ## Todo
@@ -38,3 +38,10 @@ L'interprete è stato concepito come un prototipo, pertanto è possibile attuare
 * Introduzione dei tipi non atomici (quali strutture, unioni, tuple, ...)
 * Aggiunta di un meccanismo esplicito di allocazione dinamica della memoria (richiede l'aggiunta di un heap o di uno stack)
 * Aggiunta del passaggio dei parametri per indirizzo
+
+## Per contribuire
+Effettua un fork di questo repository e crea una pull request! Eventuali miglioramenti sensati saranno ben accetti!
+
+## Licenza
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
