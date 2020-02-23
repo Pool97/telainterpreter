@@ -24,7 +24,7 @@ $ make
 ## Utilizzo
 Nel repo sono presenti alcuni programmi di esempio, contenuti nella cartella SamplePrograms. Per eseguire il programma contenuto in *fibonacci.tela* è necessario invocare il seguente comando nella cartella principale: 
 ```
-$ ./telai ./SamplePrograms/fibonacci.tela
+$ ./telai ./SamplePrograms/fibonacci.tela 4
 ```
 In generale, è sufficiente richiamare l'interprete passando come argomenti il path del file sorgente da eseguire e i parametri attuali del modulo principale.
 
